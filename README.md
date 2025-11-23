@@ -19,9 +19,9 @@ A calculadora utiliza como base a **legislação trabalhista brasileira**, permi
 - Node.js instalado (opcional)
 
 ### Passo a passo.
-**1.** Clone ou baixe este repositório:
-**2.** Entre na pasta do projeto:
-**3.** Abra o arquivo index.html diretamente no navegador.
+**1.** Clone ou baixe este repositório <br>
+**2.** Entre na pasta do projeto: <br>
+**3.** Abra o arquivo index.html diretamente no navegador. <br>
 
 ## **💻 Tecnologias e Habilidades Usadas**
 
