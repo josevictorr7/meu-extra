@@ -12,6 +12,17 @@ A calculadora utiliza como base a **legislação trabalhista brasileira**, permi
 
 ---
 
+## **💻 Como rodar localmente**
+
+### Requisitos
+- Navegador moderno.
+- Node.js instalado (opcional)
+
+### Passo a passo.
+**1.** Clone ou baixe este repositório:
+**2.** Entre na pasta do projeto:
+**3.** Abra o arquivo index.html diretamente no navegador.
+
 ## **💻 Tecnologias e Habilidades Usadas**
 
 [![Tecnologias](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
@@ -24,15 +35,15 @@ A calculadora utiliza como base a **legislação trabalhista brasileira**, permi
 
 ## **⚙️ Funcionalidades**
 
-**Layout responsivo.**
-**Cálculo rápido.**
-**UX/UI simples e intuitivo.**
+**Layout responsivo.** <br>
+**Cálculo rápido.** <br>
+**UX/UI simples e intuitivo.** <br>
+**Resultados simples de entender** <br>
 
 ---
 
-## **Vamos nos conectar?**
+## 🌐 **Vamos nos conectar?**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/josevictorr7)
-[![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail)](mailto:josevictorsouza2006@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel)](https://seuportfolio.com)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josevictorr7/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josevictorsouza2006@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=about.me&logoColor=white)](https://seu-portfolio.com)
