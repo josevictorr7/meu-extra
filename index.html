@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/src/assets/icons8-money-96.png" type="image/png" />
+    <title>MeuExtra - Calculadora de Horas Extra</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/app.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <h1 id="logo">Meu<span>Extra</span></h1>
+      </div>
+      <nav class="menu-container">
+        <ul>
+          <a href="#calcular"><li>Calcular</li></a>
+          <a href="#" target="_blank"><li>GitHub</li></a>
+          <a href="#" target="_blank"><li>LinkedIn</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="text-container">
+        <h2>Calcule Suas <span>Horas Extras</span></h2>
+        <p id="text-apresentation">
+          Calcule de forma fácil e segura o valor a receber pelas suas horas
+          extras.<br />Nossa calculadora segue os cálculos conforme a legislação
+          brasileira.
+        </p>
+        <div id="calculator-icon">
+          <i class="fa-solid fa-calculator"></i>
+        </div>
+      </section>
+      <section id="calcular">
+        <form action="#" id="request-form">
+          <div class="input-group">
+            <label for="salario">Salário Bruto</label>
+            <input type="text" id="salario" placeholder="Ex: R$1.412,00" />
+          </div>
+
+          <div class="input-group">
+            <label for="carga">Carga Horária Mensal</label>
+            <input type="number" id="carga" placeholder="Ex: 220" />
+          </div>
+
+          <div class="input-group">
+            <label for="tempo">Quantidade de Horas Extras</label>
+            <input type="text" id="tempo" placeholder="Ex: 8:00" />
+          </div>
+
+          <div class="input-group">
+            <label>Porcentagem da Hora Extra</label>
+            <select id="porcentagem">
+              <option value="50" id="50percent">50% - Dias Normais</option>
+              <option value="100" id="100percent">
+                100% - Domingos e Feriados
+              </option>
+            </select>
+          </div>
+          <button type="submit" id="btn-calcular">Calcular</button>
+        </form>
+        <div id="resultado">
+          <div id="container-title">
+            <h4>
+              <i class="fa-solid fa-money-bill-trend-up"></i> Resultado do
+              Cálculo
+            </h4>
+            <p>Seus valores foram calculados com precisão profissional.</p>
+          </div>
+          <div id="infos-container">
+            <div class="infos">
+              <div class="up-infos">
+                <i class="fa-regular fa-clock"></i>
+                <h5>HORAS</h5>
+              </div>
+              <p class="valor" id="hora-valor">0:00</p>
+            </div>
+            <div class="infos">
+              <div class="up-infos">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <h5>VALOR/H</h5>
+              </div>
+              <p class="valor" id="valor-hora-valor">R$0</p>
+            </div>
+            <div class="infos">
+              <div class="up-infos">
+                <i class="fa-solid fa-rocket"></i>
+                <h5>VALOR TOTAL</h5>
+              </div>
+              <p class="valor" id="total-horas-valor">R$0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>MeuExtra - Horas Extras</h3>
+        <p>
+          Calcule suas horas extras de forma simples, rápida e de acordo com a
+          legislação brasileira.
+        </p>
+
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 MeuExtra — Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
