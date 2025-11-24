@@ -8,7 +8,7 @@ A calculadora utiliza como base a **legislação trabalhista brasileira**, permi
 <img width="1352" height="652" alt="image" src="https://github.com/user-attachments/assets/0bb9978c-f1ba-4ef4-8b19-c9c17b2f5ab2" />
 
 **Você pode ver a versão completa do projeto acessando o site abaixo:** <br>
-🔗 - 
+🔗 - [https://meu-extra.vercel.app/](https://meu-extra.vercel.app/)
 
 ---
 
